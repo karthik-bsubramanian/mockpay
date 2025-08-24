@@ -10,8 +10,6 @@ COPY packages ./packages
 # Install dependencies
 RUN npm install
 
-RUN cd packages/db && npx prisma generate && cd ../..
-
 RUN npm run build
 
-CMD ["npm", "run", "start-merchant-app"]
+CMD ["npm", "run", "start-webhook"]
