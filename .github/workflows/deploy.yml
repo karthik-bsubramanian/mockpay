@@ -28,3 +28,8 @@ jobs:
 
     - name: Verify Pushed Image
       run: docker pull voidmoon/mynextapp:latest  
+
+
+
+
+      
