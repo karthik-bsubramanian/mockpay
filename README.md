@@ -35,5 +35,10 @@ cd apps/webhook
 ```bash
 cp ./docker/Dockerfile.user-app ./Dockerfile
 
-docker build -t mynextapp .
+docker build -t mynextapp . 
+```
+OR
+
+```bash
+docker build -t mynextapp docker/Dockerfile.user-app .
 ```
