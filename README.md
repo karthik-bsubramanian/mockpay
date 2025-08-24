@@ -18,11 +18,11 @@ With a bunch of security features added
 git clone https://github.com/karthik-bsubramanian/mockpay.git
 ``` 
 2. run prisma client
-```
+```bash
 npm run db:generate
 ```
 3. Navigate to the user-app
-```
+```bash
 cd apps/user-app && npm run dev
 
 ```
